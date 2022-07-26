@@ -6,9 +6,16 @@ After working on this on and off for a while, this is what I've done. Just split
 This isn't amazing and I realize that, but I do have plans to revisit this project and make something more out of it. My initial idea of making a truly full-fledged war game where the cards keep restacking with discard piles was too ambitious for me right now, but I know I can do more later.
 
 Version 1.0 goals for an undecided future date:
+
 -Rework the UI to be more easily readable. Numbers should be large and suits should be small.
+
 -Replace the getchar() filler with a function that can read bash-esque commands like:
+
 RUN X turns for easy testing of large war simluations, returning how many turns were simluated.
+
 STATUS on each player's draw and discard piles
+
 STATS for lifetime game statistics (number of times restacked, total round wins for each player, etc)
+
 -Add tie war mechanics where 1 card is turned over as a bounty of sorts.
+
